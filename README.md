@@ -7,7 +7,7 @@ Reproducibility repository for:
 **Panagiotis Tirchas, Nicholas Christakis, and Dimitris Drikakis**  
 Institute for Advanced Modelling and Simulation, University of Nicosia, Nicosia, CY-2417, Cyprus
 
-This repository contains the data-processing, model-fitting, robustness-analysis, validation, table-generation, and figure-generation code supporting the study. The scientific description and results below follow the current v3 main manuscript and Supplementary Information.
+This repository contains the data-processing, model-fitting, robustness-analysis, validation, table-generation, and figure-generation code supporting the study. The scientific description and results below follow the main manuscript and Supplementary Information.
 
 ## Study overview
 
@@ -139,19 +139,10 @@ This scans game codes 1–500 for all six seasons, retrieves played-game reports
 | `tables/` | Machine-readable primary, sensitivity, audit, ranking, and provenance outputs. |
 | `figures/` | Vector manuscript figures. Legacy `vppir_` filenames are retained for stable manuscript references; the current terminology is RM-PIR. |
 | `tests/` | Numerical, structural, temporal-leakage, and hash-integrity tests. |
-| `manuscript/` | Current v3 manuscript PDFs plus manuscript-supporting LaTeX and bibliography files. |
 | `docs/ANALYSIS_LINEAGE.md` | Identifies the final script path and explains which exploratory branches were superseded. |
 
 Fixed seeds, numerical tolerances, bootstrap counts, dependency versions, and SHA-256 hashes are recorded in `tables/analysis_manifest.json`. See `tables/README.md` for the output map and `data/README.md` for source-data notes.
 
-## Current manuscript files
-
-- [Main manuscript — v3](manuscript/Nature_Scientific_Reports_PIR_Analysis_NC_v3_main.pdf)
-- [Supplementary Information — v3](manuscript/Nature_Scientific_Reports_PIR_Analysis_NC_v3_Supplement.pdf)
-
-The v3 main manuscript contains the complete study rationale, mathematical construction, rolling historical evaluation, primary results, discussion, availability statements, and author contributions. The Supplement contains extended coefficient-uncertainty methods, sensitivity analyses, team rankings, all-stage rankings, the complete 335-player table, additivity audits, and secondary player diagnostics.
-
-The v3 PDFs are the authoritative scientific documents for this repository. The accompanying LaTeX files are retained as manuscript-supporting project materials and may predate final v3 wording.
 
 ## Data provenance and responsible use
 
