@@ -1,0 +1,11 @@
+TargetSeason,Estimand,Games,BothConcordant,OfficialOnlyConcordant,RMOnlyConcordant,BothDiscordant
+E2021,Full,299,273,0,9,17
+E2021,Non-PTS,299,248,3,19,29
+E2022,Full,328,292,2,12,22
+E2022,Non-PTS,328,268,4,16,40
+E2023,Full,331,298,2,9,22
+E2023,Non-PTS,331,270,4,19,38
+E2024,Full,330,297,1,15,17
+E2024,Non-PTS,330,262,4,22,42
+E2025,Full,402,372,3,9,18
+E2025,Non-PTS,402,329,5,28,40

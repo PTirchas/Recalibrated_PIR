@@ -1,0 +1,4 @@
+Season,PositiveMinutePlayerGames,PossessionThreshold,ThresholdEligiblePlayerGames,OfficialRawSpearmanPlusMinus,RMRawSpearmanPlusMinus,OfficialPartialSpearmanMinutes,RMPartialSpearmanMinutes,OfficialPartialSpearmanPossessions,RMPartialSpearmanPossessions,OfficialSharedDenominatorSpearman,RMSharedDenominatorSpearman,RawSpearmanDifference,PartialMinutesDifference,PartialPossessionsDifference,SharedDenominatorDifference
+E2025,8741,18.0,7342.0,0.3011780783245192,0.3185828641213378,0.2792408699863549,0.2940781125692145,0.2795455136023063,0.2942366631205946,0.22134692632499048,0.23499566438895791,0.01740478579681859,0.014837242582859622,0.014691149518288316,0.013648738063967436
+E2025 next-1-appearance,8406,,,0.022780487435383443,0.019529746684375553,,,,,,,-0.00325074075100789,,,
+E2025 next-3-appearance,7764,,,0.03470464668487766,0.029975415379689795,,,,,,,-0.004729231305187865,,,

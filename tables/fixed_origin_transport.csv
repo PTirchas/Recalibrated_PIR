@@ -1,0 +1,5 @@
+Role,CalibrationSeasons,TargetSeason,Estimand,Games,Tau,Alpha,MaximumTuningConcordanceTies,Gamma,OfficialWinnerHigher,OfficialTies,OfficialLoserHigher,RMWinnerHigher,RMTies,RMLoserHigher,ReclassifiedToConcordant,NewlyDiscordant,RMSIdentityError,Converged
+Retrospective fixed-origin sensitivity,E2023,E2024,Non-PTS,330,3.0,0.1,5,1.2772464749850825,266,6,58,286,0,44,27,7,0.0,True
+Retrospective fixed-origin sensitivity,E2023,E2024,Full,330,3.0,0.1,5,1.2772464749850825,298,3,29,315,0,15,17,0,0.0,True
+Retrospective fixed-origin sensitivity,E2023,E2025,Non-PTS,402,3.0,0.1,5,1.2772464749850825,334,14,54,360,0,42,27,1,0.0,True
+Retrospective fixed-origin sensitivity,E2023,E2025,Full,402,3.0,0.1,5,1.2772464749850825,375,3,24,383,0,19,8,0,0.0,True

@@ -1,0 +1,3 @@
+TargetSeason,Estimand,Method,HyperparameterTreatment,CalibrationGames,TargetGames,Repetitions,Interval2_5PP,MedianPP,Interval97_5PP,ProbabilityChangeAtLeastZero
+E2025,Full,Calibration-game refit plus target club-membership bootstrap,Selected tau and alpha fixed,989,402,1000,-4.546907695884678,-1.3071917761404181,1.624433682237148,0.195
+E2025,Non-PTS,Calibration-game refit plus target club-membership bootstrap,Selected tau and alpha fixed,989,402,1000,-11.481858239163433,-6.355264752211317,-1.8962601626016269,0.005

@@ -1,0 +1,9 @@
+Decision,WhenMade,SeasonsAlreadyInspected,Classification
+Winner-higher outcome criterion,Exploratory project phase before the present review,E2023--E2025,Post hoc
+Eight action groups and equality restrictions,Exploratory project phase before the present review,E2023--E2025,Post hoc
+"Raw bounds [0.5,1.5]",Exploratory project phase before the present review,E2023--E2025,Post hoc
+Calibration-window RMS match,Exploratory project phase before the present review,E2023--E2025,Post hoc
+Tau/alpha grid and lexicographic tie-break,"Supervisor-revision analysis, July 2026",E2020--E2025,Post hoc
+Three-season rolling operational rule,"Supervisor-revision analysis, July 2026",E2020--E2025,Post hoc historical backtest
+E2025 latest-season focus,Chosen as the latest complete season after inspection,E2023--E2025,Post hoc
+"Tie, scale, dependence, and player diagnostics","Technical revision, August 2026",E2020--E2025,Post hoc sensitivity

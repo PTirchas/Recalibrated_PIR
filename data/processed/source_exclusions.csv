@@ -1,0 +1,30 @@
+Season,GameCode,Date,Teams,Scope,Reason
+E2021,156,2022-03-20T20:30:00,OLY-CSK,Primary team analysis,Official report played=false and no completed-game statistics; payload contains no cancellation-reason field
+E2021,167,2022-02-27T16:00:00,CSK-BAR,Primary team analysis,Official report played=false and no completed-game statistics; payload contains no cancellation-reason field
+E2021,171,2022-03-29T20:30:00,MIL-DYR,Primary team analysis,Official report played=false and no completed-game statistics; payload contains no cancellation-reason field
+E2021,172,2022-03-01T18:00:00,DYR-ASV,Primary team analysis,Official report played=false and no completed-game statistics; payload contains no cancellation-reason field
+E2021,182,2022-03-08T20:00:00,OLY-DYR,Primary team analysis,Official report played=false and no completed-game statistics; payload contains no cancellation-reason field
+E2021,184,2022-03-01T19:00:00,MIL-UNK,Primary team analysis,Official report played=false and no completed-game statistics; payload contains no cancellation-reason field
+E2021,239,2022-02-24T20:30:00,BAS-UNK,Primary team analysis,Official report played=false and no completed-game statistics; payload contains no cancellation-reason field
+E2021,240,2022-02-25T18:00:00,DYR-BAR,Primary team analysis,Official report played=false and no completed-game statistics; payload contains no cancellation-reason field
+E2021,243,2022-02-24T19:00:00,MUN-CSK,Primary team analysis,Official report played=false and no completed-game statistics; payload contains no cancellation-reason field
+E2021,244,2022-03-03T17:00:00,UNK-ASV,Primary team analysis,Official report played=false and no completed-game statistics; payload contains no cancellation-reason field
+E2021,248,2022-03-03T20:05:00,TEL-DYR,Primary team analysis,Official report played=false and no completed-game statistics; payload contains no cancellation-reason field
+E2021,250,2022-03-04T18:00:00,CSK-MAD,Primary team analysis,Official report played=false and no completed-game statistics; payload contains no cancellation-reason field
+E2021,253,2022-03-10T18:45:00,ULK-CSK,Primary team analysis,Official report played=false and no completed-game statistics; payload contains no cancellation-reason field
+E2021,258,2022-03-11T18:00:00,DYR-PAN,Primary team analysis,Official report played=false and no completed-game statistics; payload contains no cancellation-reason field
+E2021,261,2022-03-11T20:30:00,MUN-UNK,Primary team analysis,Official report played=false and no completed-game statistics; payload contains no cancellation-reason field
+E2021,262,2022-03-17T17:00:00,UNK-TEL,Primary team analysis,Official report played=false and no completed-game statistics; payload contains no cancellation-reason field
+E2021,266,2022-03-17T18:00:00,CSK-MCO,Primary team analysis,Official report played=false and no completed-game statistics; payload contains no cancellation-reason field
+E2021,267,2022-03-18T18:45:00,ULK-DYR,Primary team analysis,Official report played=false and no completed-game statistics; payload contains no cancellation-reason field
+E2021,271,2022-03-22T18:00:00,DYR-UNK,Primary team analysis,Official report played=false and no completed-game statistics; payload contains no cancellation-reason field
+E2021,276,2022-03-23T19:00:00,RED-CSK,Primary team analysis,Official report played=false and no completed-game statistics; payload contains no cancellation-reason field
+E2021,280,2022-03-24T17:00:00,UNK-PAN,Primary team analysis,Official report played=false and no completed-game statistics; payload contains no cancellation-reason field
+E2021,283,2022-03-24T20:30:00,MUN-DYR,Primary team analysis,Official report played=false and no completed-game statistics; payload contains no cancellation-reason field
+E2021,284,2022-03-25T18:00:00,CSK-ZAL,Primary team analysis,Official report played=false and no completed-game statistics; payload contains no cancellation-reason field
+E2021,289,2022-03-31T18:00:00,UNK-ULK,Primary team analysis,Official report played=false and no completed-game statistics; payload contains no cancellation-reason field
+E2021,294,2022-04-01T19:00:00,DYR-CSK,Primary team analysis,Official report played=false and no completed-game statistics; payload contains no cancellation-reason field
+E2021,299,2022-04-07T19:00:00,CSK-BAS,Primary team analysis,Official report played=false and no completed-game statistics; payload contains no cancellation-reason field
+E2021,300,2022-04-07T20:00:00,OLY-UNK,Primary team analysis,Official report played=false and no completed-game statistics; payload contains no cancellation-reason field
+E2021,304,2022-04-08T19:00:00,DYR-ZAL,Primary team analysis,Official report played=false and no completed-game statistics; payload contains no cancellation-reason field
+E2025,303,2026-03-05,MAD-PAM,Secondary play-by-play possession-fit comparison only,Both team rows contain one malformed-lineup possession; retained in all box-score and RM-PIR analyses

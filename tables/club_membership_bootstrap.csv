@@ -1,0 +1,5 @@
+TargetSeason,Estimand,Method,Clubs,Games,Repetitions,ObservedDiscordanceChangePP,Interval2_5PP,Interval97_5PP,ProbabilityChangeAtLeastZero
+E2025,Full,Undirected club-membership pigeonhole bootstrap,20,402,20000,-1.492537313432836,-4.656879532634972,1.4853332348160029,0.17645
+E2025,Non-PTS,Undirected club-membership pigeonhole bootstrap,20,402,20000,-5.721393034825871,-11.141304347826088,-0.8355388544664798,0.01095
+Pooled,Full,Undirected club-membership pigeonhole bootstrap,24,1690,20000,-2.7218934911242605,-4.350106959278525,-1.1523641477898952,0.00075
+Pooled,Non-PTS,Undirected club-membership pigeonhole bootstrap,24,1690,20000,-4.970414201183432,-7.387902750232129,-3.0095708617656176,0.0

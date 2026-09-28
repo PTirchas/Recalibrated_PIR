@@ -1,0 +1,43 @@
+{
+  "retrieved_at_utc": "2026-07-22T18:04:07+00:00",
+  "started_at_utc": "2026-07-22T18:03:28+00:00",
+  "competition": "EuroLeague (E)",
+  "user_agent": "EuroLeaguePIRTimeAdjustmentResearch/1.0 (non-commercial academic analysis)",
+  "sources": {
+    "game_report": "https://api-live.euroleague.net/v3/competitions/E/seasons/{season}/games/{game_code}/report",
+    "game_stats": "https://api-live.euroleague.net/v3/competitions/E/seasons/{season}/games/{game_code}/stats",
+    "play_by_play": "https://live.euroleague.net/api/PlaybyPlay?gamecode={game_code}&seasoncode={season}"
+  },
+  "seasons": [
+    {
+      "season": "E2020",
+      "played_reports": 328,
+      "stats_responses": 328,
+      "pbp_responses": 0,
+      "cached_reports": 328,
+      "cached_stats": 328,
+      "cached_pbp": 0,
+      "max_game_code_checked": 500
+    },
+    {
+      "season": "E2021",
+      "played_reports": 299,
+      "stats_responses": 299,
+      "pbp_responses": 0,
+      "cached_reports": 327,
+      "cached_stats": 299,
+      "cached_pbp": 0,
+      "max_game_code_checked": 500
+    },
+    {
+      "season": "E2022",
+      "played_reports": 328,
+      "stats_responses": 328,
+      "pbp_responses": 0,
+      "cached_reports": 328,
+      "cached_stats": 328,
+      "cached_pbp": 0,
+      "max_game_code_checked": 500
+    }
+  ]
+}

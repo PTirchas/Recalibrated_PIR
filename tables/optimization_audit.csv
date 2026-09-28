@@ -1,0 +1,10 @@
+Check,Value,Passed
+Analytic versus finite-difference gradient,8.909598855160123e-09,True
+All tuning fits converged,225.0,True
+All RMS identities within tolerance,3.552713678800501e-15,True
+No optimizer fallback in final fits,0.0,True
+Multiple-start coefficient agreement E2021,3.568856459246206e-07,True
+Multiple-start coefficient agreement E2022,4.4485198524846226e-08,True
+Multiple-start coefficient agreement E2023,6.634397275995241e-08,True
+Multiple-start coefficient agreement E2024,7.936539569985968e-08,True
+Multiple-start coefficient agreement E2025,5.061845016474109e-07,True

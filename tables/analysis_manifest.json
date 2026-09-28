@@ -1,0 +1,94 @@
+{
+  "analysis": "Season-locked RMS-matched PIR rolling backtest and technical-revision audits",
+  "generated_at_utc": "2026-08-01T22:18:28.352292+00:00",
+  "python": "3.10.12",
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.35",
+  "packages": {
+    "numpy": "1.23.5",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "matplotlib": "3.10.7"
+  },
+  "seed": 20260730,
+  "tie_tolerance": 1e-09,
+  "rms_denominator_safeguard": 1e-12,
+  "paired_bootstraps": 20000,
+  "coefficient_bootstraps_per_target": 500,
+  "inputs": {
+    "data/processed/team_boxscores.csv": "8a94cdf30c54a5d1f2a55d583ae7a53d31b8ab37a9e43f6b62eb030f9ca88a0c",
+    "data/processed/player_games.csv": "22018c6a3b09e8a0f3877abe64c5e692322e4aa0b7c3a53dd7e2dda68ef2d43f",
+    "data/processed/team_names.csv": "44110877dc8b6e67546f80434da98fed09438ee18ba0c31796a22df7ec16c0cf",
+    "data/processed/source_exclusions.csv": "43e3c81ba0c5597f66b27aa1e5c57e2c136a474b2f3d61dc64b4f6d02962938c"
+  },
+  "raw_stats_collections": {
+    "E2020": {
+      "files": 328,
+      "sha256": "ce9db2e22ebdd32e018e6ce3f18831fc45f9fd42474236d2bdb6c269e8dcfd9b"
+    },
+    "E2021": {
+      "files": 299,
+      "sha256": "1e238b5111351c4504bf316a71a1236246ccce70c7106488bdbcdef4c001df27"
+    },
+    "E2022": {
+      "files": 328,
+      "sha256": "f707ca204244a9077b2aff5e1cdfe07c0f82a4b2453809780ef1cc40706a242a"
+    },
+    "E2023": {
+      "files": 331,
+      "sha256": "1e5254b2ea90a04c50cbccd8281970ae7cc755c83dd11f3c07cfc2ec89bae988"
+    },
+    "E2024": {
+      "files": 330,
+      "sha256": "ecc76a5cb8ee3df5357d2b8451bbafffe9905419c42dac4cadd967a05e2da072"
+    },
+    "E2025": {
+      "files": 402,
+      "sha256": "82f975defe1014208a2274d31aa1c6b5db56bb727cdd3843f81f5160a00c7ac1"
+    }
+  },
+  "outputs": {
+    "tables/rolling_validation_summary.csv": "322d660a5de1a187d3c3c22ea23dfb7562b364f83218f035e26a0518c877d290",
+    "tables/paired_transitions.csv": "3231ae09519557c7483664348af103f02cd6231d4ffc8fdc978871747b410d80",
+    "tables/model_registry.csv": "ae3090289e7ac0d2c5ba7c0af1548a49271dd87bc778d13f8e29a0255d9c571b",
+    "tables/rolling_coefficients.csv": "c110aa270b75d9c2b206761c44e8bab2ad5afbf1ae8be1a002f62ee49e48e257",
+    "tables/rolling_game_results.csv": "3795f6de6e7c50ad27158d2036f0d3645d1e9a19ea00097c9edc7a15fd1501cf",
+    "tables/nested_tuning_grid.csv": "5599e425b590f09fc2de617e45117b82636455c13d93d00cfdcd5ee6e8753fdb",
+    "tables/coefficient_bootstrap_intervals.csv": "6163cced3b6959de0fd2bf34b02ae8173b214b244bbefa20d53c94bb4d920ab4",
+    "tables/coefficient_bootstrap_target_performance.csv": "764229c85b29a4f4bd25d8c2be2f7493933f3793209eec91eeb54da15e7ad822",
+    "tables/e2025_players.csv": "cf5a5f39e61ec9181ea2684e8b82520fd6704fc769026389da67430d1a3b49aa",
+    "tables/e2025_teams_regular_season.csv": "29ca3764f8028f3ddd0fa7f51f33f24f978e262a4f7473f65b8fc19d832f519e",
+    "tables/e2025_teams_all_stages.csv": "fdb38b35e8f25f84025486bbdf408e34deadeddb0627ca0266baa71bbb4f2dd9",
+    "tables/residual_component_audit.csv": "d47cfb0f33fc51d5cdfd1432618ac5ad3a5d5999a2fbcebb32cfff803a024fad",
+    "tables/residual_identity_audit.csv": "0a44850d2a16226b30400c3b366e08b6297eb0ac77ae62c907fff17357fb95fa",
+    "tables/data_integrity_audit.csv": "503e06f2785f7e9775744145a61cb346b70d0d2923ddfa8a8cc8257df10d0126",
+    "tables/event_comparability_diagnostics.csv": "bfcb2ecdab736e4747c8c90637ec6428f44b13922802381ff0b681a7604ef068",
+    "tables/sensitivity_summary.csv": "bdf5542d55040a59318d29d4f06d7ecb1f7996a3a0be0b9680498617a976a17e",
+    "tables/sensitivity_tuning_grid.csv": "f2ba85aaa0220e3af889825b98a292830c346216636377140696e62d20ab72d7",
+    "tables/group_restriction_diagnostics.csv": "2c410705591c13632226af15e287fe1252d4e6c20eaeccb5789e6b4aaa8517d3",
+    "tables/team_dependence_sensitivity.csv": "c7f2f1fd907ebd075ed32f52663544f2cbd6d5ebed87b31bd7286de6487ae9b3",
+    "tables/optimization_audit.csv": "dcec8cc1021f4288e694f83e6a97302e7a397eda0fb43ee5ea04c700580e9843",
+    "figures/vppir_methodology.pdf": "922a947393c4fdc6bc464653115223e0794c0a249d792ac78b11dc208066068c",
+    "figures/vppir_validation.pdf": "d60df4da93eb1c22b241536bbd7dbb71e4a4fcdbeaad30f0ffe05883bcc819d7",
+    "figures/vppir_changed_games.pdf": "ad63e1ea8abf4944030d64b02fbca0c8e78031157ea93e6170c5990de2db2f30",
+    "figures/vppir_team_rank_movement.pdf": "8d9403ebc8d9e0afb78be9f16c04725d8148032ee1aa8f10b5ba37303ce66656",
+    "figures/vppir_coefficient_stability.pdf": "a7a724f3d3c4c3239430242c4a6bab40a1b658b7baedfb2068e19826ef170540",
+    "figures/vppir_historical_validation.pdf": "9a22f0da6fd26528a940882d0fd1408786080706254e2ea811a88daa5c339abb",
+    "tables/tie_sensitivity.csv": "6aac02e602dbe8126085b8b524d5de2ed607d47f5b6c221e0002fbfc2d6f942c",
+    "tables/figure_category_audit.csv": "2a5be87bdae5f7b7af3a26d3d2ce9b438dfa202452a3c1bb7ee915323c689111",
+    "tables/fixed_origin_transport.csv": "a07666f38c5ac63074a0b4831736da4e613680adb7933af001250dcc337098e0",
+    "tables/scale_anchor_sensitivity.csv": "eb5cd78b3fcd6a68f68df8711ad7595ff4e8364e248635d2ada5341e89b158b0",
+    "tables/player_scale_sensitivity.csv": "90d5c54f73fb8b5f386cd3de5d5786c15ba1d11cfa82a789532596625fd7d4ec",
+    "tables/tuning_tie_sensitivity.csv": "b23c909f2a7e51bb01425c035989756de90a52b348ccba3a884a2d706bf9efa9",
+    "tables/club_membership_bootstrap.csv": "d9d0071ffcf7403fc9b62a0ea19a02ed48a804f5619b862aec5522dba00fcf83",
+    "tables/joint_uncertainty_bootstrap.csv": "4c8005e07844c53500b8afc7d8694d25f65a2cde6d653b9a3a6d3d64b4e7ab8c",
+    "tables/data_exclusions.csv": "43e3c81ba0c5597f66b27aa1e5c57e2c136a474b2f3d61dc64b4f6d02962938c",
+    "tables/analysis_provenance.csv": "0e96d440d98a278ce7b888781ed27a210578fdc213397cd264d8fa56c01c8723",
+    "tables/player_association_diagnostics.csv": "2e695f36995e98b76f724dc1d8e828801cc202c5ae223a63e4dc3205b835fdb1",
+    "tables/player_association_bootstrap.csv": "d4cca8480474e5cfdd05341f5576cd3ba182df9fdb34d2b566bd73511e0b8b39"
+  },
+  "technical_revision_seed": 20260810,
+  "club_membership_bootstraps": 20000,
+  "joint_uncertainty_bootstraps": 1000,
+  "player_diagnostic_bootstraps": 1000,
+  "common_resolution_equivalence_band": 0.5
+}
