@@ -116,12 +116,6 @@ python -m analytics.run_all
 
 The deterministic analysis uses fixed random seeds and overwrites generated files under `tables/` and `figures/`.
 
-To reacquire the public source data before rebuilding:
-
-```bash
-python -m analytics.run_all --refresh-data
-```
-
 This scans game codes 1–500 for all six seasons, retrieves played-game reports and box scores, and retrieves 2025–26 play-by-play. Responses are cached under the git-ignored `data/raw/` directory. Network availability or upstream API changes can affect a fresh acquisition; the bundled processed tables are the frozen study inputs.
 
 ## Repository contents
